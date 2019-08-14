@@ -4,3 +4,7 @@ console.log(firstName);
 
 const lastName = 'Nwa Jesus';
 const age = 32;
+const fullAge = true;
+
+const job;
+job = 'Programmer';
