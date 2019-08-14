@@ -6,5 +6,5 @@ const lastName = 'Nwa Jesus';
 const age = 32;
 const fullAge = true;
 
-const job;
+let job;
 job = 'Programmer';
