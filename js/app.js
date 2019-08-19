@@ -8,3 +8,5 @@ const fullAge = true;
 
 let job;
 job = 'Programmer';
+
+console.log(`${firstName} ${age}`)
