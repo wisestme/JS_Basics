@@ -11,4 +11,4 @@ job = 'Programmer';
 
 const isMarried = false;
 
-console.log(`${firstName} is a ${age} year old ${job}. Is he married? ${isMarried}`);
+alert(`${firstName} is a ${age} year old ${job}. Is he married? ${isMarried}`);
