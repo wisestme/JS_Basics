@@ -14,3 +14,4 @@ const isMarried = false;
 alert(`${firstName} is a ${age} year old ${job}. Is he married? ${isMarried}`);
 
 const middleName = prompt(`What is your middle name?`);
+alert(`My name is ${firstName} ${middleName} ${lastName}`)
