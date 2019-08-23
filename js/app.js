@@ -8,10 +8,14 @@ console.log("Test link");
 
 let markHeight, markMass,
 	johnHeight, johnMass,
-	markBMI, johnBMI;
+	markBMI, johnBMI,
+	markBMIGreater;
 
 // BMI Calculation
 
 markBMI = markMass/(markHeight * markHeight);
 johnBMI = johnMass/(johnHeight * johnHeight);
 
+// Compare for Greater BMI
+
+markBMIGreater = markBMI > johnBMI;
