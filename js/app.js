@@ -19,3 +19,7 @@ johnBMI = johnMass/(johnHeight * johnHeight);
 // Compare for Greater BMI
 
 markBMIGreater = markBMI > johnBMI;
+
+// Output result to the console
+
+console.log(`Is Mark's BMI higher than John's ${markBMIGreater}`)
