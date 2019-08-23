@@ -26,3 +26,7 @@ console.log(currentYear + 3);
 let wisestOlder = ageWisest > ageMarvy;
 
 console.log(wisestOlder);
+
+// typeof OPERATOR
+console.log(typeof wisestOlder);
+console.log(typeof marvyBirthYear);
