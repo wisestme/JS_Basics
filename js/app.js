@@ -20,3 +20,9 @@ console.log(currentYear * 2);
 console.log(currentYear / 10);
 
 console.log(currentYear + 3);
+
+// LOGICAL OPERATORS
+
+let wisestOlder = ageWisest > ageMarvy;
+
+console.log(wisestOlder);
