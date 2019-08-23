@@ -11,6 +11,13 @@ let markHeight, markMass,
 	markBMI, johnBMI,
 	markBMIGreater;
 
+// variable assignment
+markHeight = 1.86;
+markMass = 60;
+johnHeight = 1.56;
+johnMass = 65;
+
+
 // BMI Calculation
 
 markBMI = markMass/(markHeight * markHeight);
