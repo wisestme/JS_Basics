@@ -15,3 +15,8 @@ marvyBirthYear = currentYear - ageMarvy;
 
 console.log(wisestBirthYear);
 console.log(marvyBirthYear);
+
+console.log(currentYear * 2);
+console.log(currentYear / 10);
+
+console.log(currentYear + 3);
