@@ -4,9 +4,14 @@ console.log("Test link");
 
 // MATH OPERATORS
 
-let wisestBirthYear, currentYear, ageWisest;
+let wisestBirthYear, currentYear, ageWisest, ageMarvy, marvyBirthYear;
 ageWisest = 32;
 currentYear = 2019;
+
+ageMarvy = 31;
+
 wisestBirthYear = currentYear - ageWisest;
+marvyBirthYear = currentYear - ageMarvy;
 
 console.log(wisestBirthYear);
+console.log(marvyBirthYear);
