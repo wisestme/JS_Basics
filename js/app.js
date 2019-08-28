@@ -36,10 +36,12 @@ console.log(`Is Mark's BMI higher than John's ${markBMIGreater}`)
 // IF ELSE
 
 const firstName = 'wisest';
-const age = 12;
+const age = 20;
 
 if (age < 13) {
-	console.log(`${firstName} is a boy`)
+	console.log(`${firstName} is a boy`);
+} else if (age < 20) {
+	console.log(`${firstName} is a teenager`);
 } else {
-	console.log(`${firstName} is a man`)
+	console.log(`${firstName} is a man`);
 }
