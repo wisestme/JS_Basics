@@ -35,4 +35,11 @@ console.log(`Is Mark's BMI higher than John's ${markBMIGreater}`)
 // CONDITIONAL STATEMENTS
 // IF ELSE
 
-/
+const firstName = 'wisest';
+const age = 12;
+
+if (age < 13) {
+	console.log(`${firstName} is a boy`)
+} else {
+	console.log(`${firstName} is a man`)
+}
