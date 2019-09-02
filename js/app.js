@@ -47,8 +47,8 @@ if (age < 13) {
 }*/
 
 let firstName = 'Sammy';
-let age = 16;
-
-age >= 18 ? console.log(`${firstName} drinks beer.`) : console.log(`${firstName} drinks juice`);
+let age = 26;
 
 let drink = age >= 18 ? 'beer' : 'juice';
+
+console.log(`${firstName} drinks ${drink}`);
