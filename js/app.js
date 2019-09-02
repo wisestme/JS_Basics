@@ -46,9 +46,29 @@ if (age < 13) {
 	console.log(`${firstName} is a man`);
 }*/
 
-let firstName = 'Sammy';
+/*let firstName = 'Sammy';
 let age = 26;
 
 let drink = age >= 18 ? 'beer' : 'juice';
 
-console.log(`${firstName} drinks ${drink}`);
+console.log(`${firstName} drinks ${drink}`);*/
+
+let job = 'programmer';
+let firstName = 'Joseph';
+
+switch (job) {
+	case 'teacher':
+	console.log(`${firstName} teaches kids mathematics`);
+	break;
+	case 'programmer':
+	console.log(`${firstName} writes working codes`);
+	break;
+	case 'police':
+	console.log(`${firstName} ensures maitenance of law and order`);
+	break;
+	case 'actress':
+	console.log(`${firstName} takes up roles that are usually ficticious`);
+	break;
+	default:
+	console.log(`${firstName} is yet to get a job`);
+}
