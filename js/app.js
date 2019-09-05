@@ -91,6 +91,9 @@ johnGame1 = 89;
 johnGame2 = 120;
 johnGame3 = 103;
 
+// Calculate Average
+mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3) / 2;
 
+johnAverage = (johnGame1 + johnGame2 + johnGame3) / 2;
 
 
