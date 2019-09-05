@@ -97,5 +97,10 @@ mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3) / 2;
 
 johnAverage = (johnGame1 + johnGame2 + johnGame3) / 2;
 
-winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';
+if(mikeAverage === johnAverage) {
+	winner = 'no winner';
+} else {
+	winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';
+}
+
 
