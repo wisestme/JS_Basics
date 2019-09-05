@@ -103,4 +103,6 @@ if(mikeAverage === johnAverage) {
 	winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';
 }
 
+console.log(`The winner is ${winner}`);
+
 
