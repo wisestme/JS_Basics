@@ -53,7 +53,7 @@ let drink = age >= 18 ? 'beer' : 'juice';
 
 console.log(`${firstName} drinks ${drink}`);*/
 
-let job = 'programmer';
+/*let job = 'programmer';
 let firstName = 'Joseph';
 
 switch (job) {
@@ -71,4 +71,15 @@ switch (job) {
 	break;
 	default:
 	console.log(`${firstName} is yet to get a job`);
-}
+}*/
+
+/*************************************
+* CODING CHALLENGE 2
+*/
+
+// Variable Declaration
+let mikeGame1, mikeGame2, mikeGame3,
+	johnGame1, johnGame2, johnGame3,
+	mikeAverage, johnAverage;
+
+
