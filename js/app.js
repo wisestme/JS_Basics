@@ -80,7 +80,8 @@ switch (job) {
 // Variable Declaration
 let mikeGame1, mikeGame2, mikeGame3,
 	johnGame1, johnGame2, johnGame3,
-	mikeAverage, johnAverage;
+	mikeAverage, johnAverage,
+	winner;
 
 // Variable assignment
 mikeGame1 = 116;
