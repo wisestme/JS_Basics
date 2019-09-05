@@ -82,4 +82,15 @@ let mikeGame1, mikeGame2, mikeGame3,
 	johnGame1, johnGame2, johnGame3,
 	mikeAverage, johnAverage;
 
+// Variable assignment
+mikeGame1 = 116;
+mikeGame2 = 94;
+mikeGame3 = 123;
+
+johnGame1 = 89;
+johnGame2 = 120;
+johnGame3 = 103;
+
+
+
 
