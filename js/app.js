@@ -103,6 +103,8 @@ maryGame3 = 123;
 mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3) / 2;
 
 johnAverage = (johnGame1 + johnGame2 + johnGame3) / 2;
+
+maryAverage = (maryGame1 + maryGame2 + mikeGame3) / 2;
 /*
 mikeAverage === johnAverage ? winner = 'no winner' 
 : winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';*/
