@@ -88,21 +88,37 @@ mikeGame1 = 116;
 mikeGame2 = 94;
 mikeGame3 = 123;
 
-johnGame1 = 89;
-johnGame2 = 120;
-johnGame3 = 103;
+johnGame1 = 116;
+johnGame2 = 94;
+johnGame3 = 123;
 
 // Calculate Average
 mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3) / 2;
 
 johnAverage = (johnGame1 + johnGame2 + johnGame3) / 2;
+/*
+mikeAverage === johnAverage ? winner = 'no winner' 
+: winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';*/
 
-if(mikeAverage === johnAverage) {
+switch (true) {
+	case mikeAverage > johnAverage:
+	winner = 'Mike';
+	break;
+
+	case mikeAverage < johnAverage:
+	winner = 'John';
+	break;
+
+	default:
+	winner = 'A tie, No winner.'
+}
+
+/*if(mikeAverage === johnAverage) {
 	winner = 'no winner';
 } else {
 	winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';
-}
+}*/
 
-console.log(`The winner is ${winner}`);
+console.log(`The winner is: ${winner}`);
 
 
