@@ -93,6 +93,10 @@ johnGame1 = 116;
 johnGame2 = 94;
 johnGame3 = 123;
 
+maryGame1 = 116;
+maryGame2 = 94;
+maryGame3 = 123;
+
 
 
 // Calculate Average
