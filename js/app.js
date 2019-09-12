@@ -131,7 +131,7 @@ console.log(`The winner is: ${winner}`);
 * FUNCTIONS
 */
 
-function calculateAge(birthYear) {
+const calculateAge = (birthYear)  => { 
 	return 2018 - birthYear;
 }
 
