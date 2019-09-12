@@ -137,3 +137,11 @@ const calculateAge = (birthYear)  => {
 
 let ageMe = calculateAge(1987);
 console.log(ageMe);
+
+const gameAverage = (gameOne, gameTwo, gameThree) => {
+	return (gameOne + gameTwo + gameThree)/3
+}
+
+let averageJohn = gameAverage(20, 40, 60);
+
+console.log(averageJohn);
