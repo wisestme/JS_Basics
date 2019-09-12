@@ -145,3 +145,12 @@ const gameAverage = (gameOne, gameTwo, gameThree) => {
 let averageJohn = gameAverage(20, 40, 60);
 
 console.log(averageJohn);
+
+const toRetire = (birthYear, firstName, ageLeft) => {
+	ageLeft = 65 - ageMe;
+
+	console.log(`${firstName} will retire in ${ageLeft} years time`);
+}
+
+toRetire(1987, 'Wisest');
+
