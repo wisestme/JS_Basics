@@ -126,3 +126,14 @@ switch (true) {
 console.log(`The winner is: ${winner}`);
 
 */
+
+/******************************
+* FUNCTIONS
+*/
+
+function calculateAge(birthYear) {
+	return 2018 - birthYear;
+}
+
+let ageMe = calculateAge(1987);
+console.log(ageMe);
