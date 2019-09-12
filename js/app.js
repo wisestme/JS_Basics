@@ -78,7 +78,7 @@ switch (job) {
 */
 
 // Variable Declaration
-let mikeGame1, mikeGame2, mikeGame3,
+/*let mikeGame1, mikeGame2, mikeGame3,
 	johnGame1, johnGame2, johnGame3,
 	maryGame1, maryGame2, maryGame3,
 	mikeAverage, johnAverage, maryAverage,
@@ -105,9 +105,6 @@ mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3) / 2;
 johnAverage = (johnGame1 + johnGame2 + johnGame3) / 2;
 
 maryAverage = (maryGame1 + maryGame2 + maryGame3) / 2;
-/*
-mikeAverage === johnAverage ? winner = 'no winner' 
-: winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';*/
 
 switch (true) {
 	case (mikeAverage > johnAverage) && (mikeAverage > maryAverage):
@@ -126,12 +123,6 @@ switch (true) {
 	winner = 'A tie, No winner.'
 }
 
-/*if(mikeAverage === johnAverage) {
-	winner = 'no winner';
-} else {
-	winner = mikeAverage > johnAverage ? 'Mike\'s team' : 'John\'s team';
-}*/
-
 console.log(`The winner is: ${winner}`);
 
-
+*/
