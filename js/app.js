@@ -158,10 +158,52 @@ toRetire(1987, 'Wisest');*/
 * ARRAYS
 */
 
-let names = ['John', 'James', 'Mark', 'Gideon'];
+/*let names = ['John', 'James', 'Mark', 'Gideon'];
 names[names.length] = 'Luke';
 names.push('Jones');
 names.unshift('Noel');
 names.shift();
 console.log(names);
-console.log(names.indexOf('Mark'));
+console.log(names.indexOf('Mark'));*/
+
+/*****************************************************
+* CODING CHALLENGE 3
+*/
+
+let restaurantBill = [124, 48, 268];
+let tipPercent;
+
+
+
+function calculateTip(bill) {
+	if(bill < 50) {
+		tipPercent = 0.2;
+	} else if(bill >= 50 || bill <= 200) {
+		tipPercent = 0.15;
+	} else {
+		tipPercent = 0.1;
+	}
+	let tip = tipPercent * bill;
+	console.log(tip);
+	return tip;
+}
+
+let allTips = [];
+let paid = [];
+
+let tipOne = calculateTip(restaurantBill[0]);
+let paidOne = tipOne + restaurantBill[0];
+allTips.push(tipOne);
+paid.push(paidOne);
+
+let tipTwo = calculateTip(restaurantBill[1]);
+let paidTwo = tipTwo + restaurantBill[1];
+allTips.push(tipTwo);
+paid.push(paidTwo);
+
+let tipThree = calculateTip(restaurantBill[2]);
+let paidThree = tipThree + restaurantBill[2];
+allTips.push(tipThree);
+paid.push(paidThree);
+
+console.log(allTips, paid);
