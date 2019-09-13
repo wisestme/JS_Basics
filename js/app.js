@@ -131,7 +131,7 @@ console.log(`The winner is: ${winner}`);
 * FUNCTIONS
 */
 
-const calculateAge = (birthYear)  => { 
+/*const calculateAge = (birthYear)  => { 
 	return 2018 - birthYear;
 }
 
@@ -152,5 +152,12 @@ const toRetire = (birthYear, firstName, ageLeft) => {
 	console.log(`${firstName} will retire in ${ageLeft} years time`);
 }
 
-toRetire(1987, 'Wisest');
+toRetire(1987, 'Wisest');*/
 
+/*************************************************
+* ARRAYS
+*/
+
+let names = ['John', 'James', 'Mark', 'Gideon'];
+names[names.length] = 'Luke'
+console.log(names);
