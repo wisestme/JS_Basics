@@ -162,5 +162,5 @@ let names = ['John', 'James', 'Mark', 'Gideon'];
 names[names.length] = 'Luke';
 names.push('Jones');
 names.unshift('Noel');
-names.pop();
+names.shift();
 console.log(names);
