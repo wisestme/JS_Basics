@@ -159,5 +159,6 @@ toRetire(1987, 'Wisest');*/
 */
 
 let names = ['John', 'James', 'Mark', 'Gideon'];
-names[names.length] = 'Luke'
+names[names.length] = 'Luke';
+names.push('Jones');
 console.log(names);
