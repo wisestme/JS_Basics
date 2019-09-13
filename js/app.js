@@ -164,3 +164,4 @@ names.push('Jones');
 names.unshift('Noel');
 names.shift();
 console.log(names);
+console.log(names.indexOf('Mark'));
