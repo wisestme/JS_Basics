@@ -178,7 +178,7 @@ let tipPercent;
 function calculateTip(bill) {
 	if(bill < 50) {
 		tipPercent = 0.2;
-	} else if(bill >= 50 || bill <= 200) {
+	} else if(bill >= 50 && bill <= 200) {
 		tipPercent = 0.15;
 	} else {
 		tipPercent = 0.1;
