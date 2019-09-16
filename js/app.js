@@ -223,4 +223,4 @@ let john = {
 	job: 'programmer'
 };
 
-console.log(john);
+console.log(john.family);
