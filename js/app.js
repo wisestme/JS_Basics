@@ -170,42 +170,57 @@ console.log(names.indexOf('Mark'));*/
 * CODING CHALLENGE 3
 */
 
-let restaurantBill = [124, 48, 268];
-let tipPercent;
+// let restaurantBill = [124, 48, 268];
+// let tipPercent;
 
-// tip calculator
-function calculateTip(bill) {
-	if(bill < 50) {
-		tipPercent = 0.2;
-	} else if(bill >= 50 && bill <= 200) {
-		tipPercent = 0.15;
-	} else {
-		tipPercent = 0.1;
-	}
-	let tip = tipPercent * bill;
-	console.log(tip);
-	return tip;
-}
+// // tip calculator
+// function calculateTip(bill) {
+// 	if(bill < 50) {
+// 		tipPercent = 0.2;
+// 	} else if(bill >= 50 && bill <= 200) {
+// 		tipPercent = 0.15;
+// 	} else {
+// 		tipPercent = 0.1;
+// 	}
+// 	let tip = tipPercent * bill;
+// 	console.log(tip);
+// 	return tip;
+// }
 
-// initialise empty arrays for the results
-let allTips = [];
-let paid = [];
+// // initialise empty arrays for the results
+// let allTips = [];
+// let paid = [];
 
-// call the calculator and push the results
+// // call the calculator and push the results
 
-let tipOne = calculateTip(restaurantBill[0]);
-let paidOne = tipOne + restaurantBill[0];
-allTips.push(tipOne);
-paid.push(paidOne);
+// let tipOne = calculateTip(restaurantBill[0]);
+// let paidOne = tipOne + restaurantBill[0];
+// allTips.push(tipOne);
+// paid.push(paidOne);
 
-let tipTwo = calculateTip(restaurantBill[1]);
-let paidTwo = tipTwo + restaurantBill[1];
-allTips.push(tipTwo);
-paid.push(paidTwo);
+// let tipTwo = calculateTip(restaurantBill[1]);
+// let paidTwo = tipTwo + restaurantBill[1];
+// allTips.push(tipTwo);
+// paid.push(paidTwo);
 
-let tipThree = calculateTip(restaurantBill[2]);
-let paidThree = tipThree + restaurantBill[2];
-allTips.push(tipThree);
-paid.push(paidThree);
+// let tipThree = calculateTip(restaurantBill[2]);
+// let paidThree = tipThree + restaurantBill[2];
+// allTips.push(tipThree);
+// paid.push(paidThree);
 
-console.log(allTips, paid);
+// console.log(allTips, paid);
+
+/********************************************************
+* OBJECTS
+*/
+
+let john = {
+	firstName: 'John',
+	lastName: 'Smith',
+	birthYear: 1990,
+	family: ['Mark', 'Abu', 'Chinwe'],
+	isMarried: false,
+	job: 'programmer'
+};
+
+console.log(john);
