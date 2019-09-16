@@ -173,8 +173,7 @@ console.log(names.indexOf('Mark'));*/
 let restaurantBill = [124, 48, 268];
 let tipPercent;
 
-
-
+// tip calculator
 function calculateTip(bill) {
 	if(bill < 50) {
 		tipPercent = 0.2;
@@ -188,8 +187,11 @@ function calculateTip(bill) {
 	return tip;
 }
 
+// initialise empty arrays for the results
 let allTips = [];
 let paid = [];
+
+// call the calculator and push the results
 
 let tipOne = calculateTip(restaurantBill[0]);
 let paidOne = tipOne + restaurantBill[0];
