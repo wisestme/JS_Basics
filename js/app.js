@@ -345,20 +345,23 @@ while(i < names.length) {
  let markBills = markRestaurant.allBills;
  let johnBills = johnRestaurant.allBills;
 
- function billSumAverage (bills) {
- 	let billSum = 0;
- 	for(let i = 0; i < bills.length; i++) {
+  let markTips = markRestaurant.allPaidTips;
+ let johnTips = johnRestaurant.allPaidTips;
+
+ function tipSumAverage (tips) {
+ 	let tipSum = 0;
+ 	for(let i = 0; i < tips.length; i++) {
  		
- 		billSum += bills[i] ;
+ 		tipSum += tips[i] ;
  		
  	}
- 	return billSum / bills.length;
+ 	return tipSum / tips.length;
  }
 
- let markAverage = billSumAverage(markBills);
-  let johnAverage = billSumAverage(johnBills);
+ let markAverage = tipSumAverage(markTips);
+  let johnAverage = tipSumAverage(johnTips);
 
   let highestAverage = markAverage > johnAverage ? 'Mark\'s family'
   												: 'John\'s family';
 
-console.log(`${highestAverage} paid the highest bill on average.`)
+console.log(`${highestAverage} paid the highest tips on average.`)
