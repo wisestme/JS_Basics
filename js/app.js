@@ -227,5 +227,5 @@ let john = {
 };
 
 //console.log(john.calcAge());
-let age = john.calcAge();
-console.log(age);
+john.age = john.calcAge();
+console.log(john);
