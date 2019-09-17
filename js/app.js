@@ -266,7 +266,7 @@ if(john.BMI === mark.BMI) {
 /**********************************************************
 * LOOPS AND ITERATION
 */
-for (let i = 0; i < 6; i += 2) {
+/*for (let i = 0; i < 6; i += 2) {
 	console.log('Chiji');
 	console.log('me');
 }
@@ -284,4 +284,81 @@ let i = 0;
 while(i < names.length) {
 	console.log(names[i]);
 	i++;
-}
+}*/
+
+/*********************************************************
+* CODDING CHALLENGE
+*/
+
+ let johnRestaurant = {
+ 	bills: [124, 48,268, 180, 542],
+ 	allPaidTips: [],
+ 	allBills: [],
+ 	calcTip: function(allPaidTips) {
+ 		let tipPercent;
+ 		
+ 		for(let i = 0; i < this.bills.length; i++) {
+ 			//let billNum = parseInt(this.bills[i]);
+ 			tipPercent = this.bills[i] < 50 ? 0.2
+ 			: this.bills[i] >= 50 && this.bills[i] <= 200 ? 0.15 : 0.1;
+
+ 		paidTip = this.bills[i] * tipPercent;
+ 		paidBill = this.bills[i] + paidTip;
+ 		console.log(this.bills[i], tipPercent);
+
+ 		this.allPaidTips.push(paidTip);
+ 		this.allBills.push(paidBill);
+
+ 		}
+ 		console.log(this.allPaidTips, this.allBills);
+ 	}
+ }
+
+ johnRestaurant.calcTip();
+
+ let markRestaurant = {
+ 	bills: [77, 375, 110, 45],
+ 	allPaidTips: [],
+ 	allBills: [],
+ 	calcTip: function(allPaidTips) {
+ 		let tipPercent;
+ 		
+ 		for(let i = 0; i < this.bills.length; i++) {
+ 			//let billNum = parseInt(this.bills[i]);
+ 			tipPercent = this.bills[i] < 100 ? 0.2
+ 			: this.bills[i] >= 100 && this.bills[i] <= 300 ? 0.15 : 0.1;
+
+ 		paidTip = this.bills[i] * tipPercent;
+ 		paidBill = this.bills[i] + paidTip;
+ 		console.log(this.bills[i], tipPercent);
+
+ 		this.allPaidTips.push(paidTip);
+ 		this.allBills.push(paidBill);
+
+ 		}
+ 		console.log(this.allPaidTips, this.allBills);
+ 		
+ 	}
+ }
+
+ markRestaurant.calcTip();
+ let markBills = markRestaurant.allBills;
+ let johnBills = johnRestaurant.allBills;
+
+ function billSumAverage (bills) {
+ 	let billSum = 0;
+ 	for(let i = 0; i < bills.length; i++) {
+ 		
+ 		billSum += bills[i] ;
+ 		
+ 	}
+ 	return billSum / bills.length;
+ }
+
+ let markAverage = billSumAverage(markBills);
+  let johnAverage = billSumAverage(johnBills);
+
+  let highestAverage = markAverage > johnAverage ? 'Mark\'s family'
+  												: 'John\'s family';
+
+console.log(`${highestAverage} paid the highest bill on average.`)
