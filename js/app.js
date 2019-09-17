@@ -217,15 +217,16 @@ console.log(names.indexOf('Mark'));*/
 let john = {
 	firstName: 'John',
 	lastName: 'Smith',
-	birthYear: 1993,
+	birthYear: 1995,
 	family: ['Mark', 'Abu', 'Chinwe'],
 	isMarried: false,
 	job: 'programmer',
 	calcAge: function() {
-		return 2019 - this.birthYear;
+		this.age = 2019 - this.birthYear;
 	}
 };
 
 //console.log(john.calcAge());
-john.age = john.calcAge();
+//john.age = john.calcAge();
+john.calcAge();
 console.log(john);
