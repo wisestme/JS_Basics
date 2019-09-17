@@ -275,7 +275,7 @@ console.log('him');
 
 let names = ['John', 'James', 'Mark', 'Gideon'];
 
-for (let i = 0; i < names.length; i++) {
+for (let i = (names.length-1); i >= 0; i--) {
 	console.log(names[i]);
 }
 
