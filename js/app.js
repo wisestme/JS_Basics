@@ -266,9 +266,15 @@ if(john.BMI === mark.BMI) {
 /**********************************************************
 * LOOPS AND ITERATION
 */
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i += 2) {
 	console.log('Chiji');
 	console.log('me');
 }
 
 console.log('him');
+
+let names = ['John', 'James', 'Mark', 'Gideon'];
+
+for (let i = 0; i < names.length; i++) {
+	console.log(names[i]);
+}
