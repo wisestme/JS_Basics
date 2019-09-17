@@ -214,7 +214,7 @@ console.log(names.indexOf('Mark'));*/
 * OBJECTS
 */
 
-let john = {
+/*let john = {
 	firstName: 'John',
 	lastName: 'Smith',
 	birthYear: 1995,
@@ -229,4 +229,70 @@ let john = {
 //console.log(john.calcAge());
 //john.age = john.calcAge();
 john.calcAge();
-console.log(john);
+console.log(john);*/
+
+/**********************************************************
+* CODING CHALLENGE
+*/
+/*
+// BMI comparator
+// BMI = mass/height^2
+
+// variables declaration
+
+let markHeight, markMass,
+	johnHeight, johnMass,
+	markBMI, johnBMI,
+	markBMIGreater;
+
+// variable assignment
+markHeight = 1.86;
+markMass = 60;
+johnHeight = 1.56;
+johnMass = 65;
+
+
+// BMI Calculation
+
+markBMI = markMass/(markHeight * markHeight);
+johnBMI = johnMass/(johnHeight * johnHeight);
+
+// Compare for Greater BMI
+
+markBMIGreater = markBMI > johnBMI;
+
+// Output result to the console
+
+console.log(`Is Mark's BMI higher than John's ${markBMIGreater}`)
+*/
+
+let mark = {
+	firstName: 'Mark',
+	height: 1.80,
+	mass: 60,
+	BMI: function() {
+		this.BMI = this.mass/(this.height * this.height);
+		return this.BMI;
+	}
+};
+
+let john = {
+	firstName: 'John',
+	height: 1.82,
+	mass: 60,
+	BMI: function() {
+		this.BMI = this.mass/(this.height * this.height);
+		return this.BMI;
+	}
+};
+
+mark.BMI();
+john.BMI();
+
+let higherBMI = john.BMI > mark.BMI ? 'John' : 'Mark';
+
+if(john.BMI === mark.BMI) {
+	console.log(`${john.firstName} and ${mark.firstName} have equal BMI`)
+} else {
+	console.log(`${higherBMI} has a higher BMI`);
+}
