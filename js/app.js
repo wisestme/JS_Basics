@@ -286,10 +286,8 @@ let john = {
 	}
 };
 
-mark.BMI();
-john.BMI();
-
-let higherBMI = john.BMI > mark.BMI ? 'John' : 'Mark';
+// methods are called in this ternary operator
+let higherBMI = john.BMI() > mark.BMI() ? 'John' : 'Mark';
 
 if(john.BMI === mark.BMI) {
 	console.log(`${john.firstName} and ${mark.firstName} have equal BMI`)
